@@ -1,0 +1,100 @@
+/* Medium devices (tablets, 920px and below) */
+@media (max-width: 920px) {
+
+    /* About Section Adjustments */
+    .about-section-content {
+        flex-direction: column-reverse !important;
+        gap: 2rem;
+    }
+
+    .about-img {
+        max-width: 80%;
+        margin: 0 auto 2rem;
+    }
+
+    .about-details {
+        width: 100%;
+        padding: 1.5rem;
+        text-align: center;
+    }
+
+    .about-description {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    /* Resume Section Adjustments */
+    .resume-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .resume-column {
+        width: 100%;
+    }
+
+    .resume-line {
+        display: none;
+    }
+
+    .resume-items .item .info {
+        position: static !important;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .resume-items .item::before {
+        display: none;
+    }
+
+    .skill-container {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-card {
+        min-height: auto;
+        padding: 1.5rem;
+    }
+
+    .skill-categories {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Smaller screens (below 768px) */
+@media (max-width: 768px) {
+
+    /* About Section */
+    .about-img {
+        max-width: 100%;
+    }
+
+    .section-title h3 {
+        font-size: 2rem;
+    }
+
+    .sub-title {
+        font-size: 1.2rem;
+    }
+
+    /* Resume Section */
+    .resume-tabs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resume-item {
+        padding: 1rem;
+    }
+
+    .item-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .skill-card {
+        width: 100%;
+    }
+}
