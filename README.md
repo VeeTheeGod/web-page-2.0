@@ -1,7 +1,7 @@
 
 # 📌 Portfolio Project - Hackathon Submission
 ## 🚀 **Live Demo**
-   🔗 https://veetheegod.gihub.io
+   🔗 https://veetheegod.github.io/web-page-2.0/
 
 ## 📖 About the Project
  This is my personal portfolio website, showcasing my skills, projects, and experiences in web development. It is designed to be fully responsive, interactive, and visually appealing. The portfolio includes smooth animations, a theme switcher, and an optimized UI/UX for a seamless user experience.
@@ -14,7 +14,7 @@
 
    ✔️ Mobile-friendly & Responsive Design
 
-   ✔️ Deployed on Netlify
+   ✔️ Deployed on Github Pages
 
   ***🛠️ Technologies Used***
    1. HTML5 – Structured web content
